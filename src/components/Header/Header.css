@@ -1,0 +1,20 @@
+.logo img {
+    width: 80%;
+}
+
+.nav-text {
+    text-decoration: none;
+    display: block;
+    color: #666666;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 18px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.nav-text:hover {
+    color: white;
+    background-color: #e79800;
+}
