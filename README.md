@@ -1,5 +1,5 @@
 <p align="center">
-<img src="public/logo.png">
+<img src="./src/logo.png">
 </p>
 
 # Learn with Ridu (React Project)
