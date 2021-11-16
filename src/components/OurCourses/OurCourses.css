@@ -1,0 +1,53 @@
+.sec-title {
+    text-transform: uppercase;
+    font-weight: normal;
+    position: relative;
+    padding-bottom: 15px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.sec-title::before {
+    content: "";
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 25px;
+    background-color: #666666;
+    position: absolute;
+}
+
+.sec-title::after {
+    content: "";
+    left: 35px;
+    bottom: 1px;
+    height: 1px;
+    width: 50px;
+    background-color: #bbbbbb;
+    position: absolute;
+}
+
+.our-courses {
+    font-family: 'Roboto Slab', serif;
+}
+
+.c-price {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 100%;
+    box-shadow: 0 3px 4px -1px rgb(206 190 190);
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    height: 48px;
+    line-height: 48px;
+    position: absolute;
+    right: 15px;
+    text-align: center;
+    top: 235px;
+    width: 48px;
+}
+
+.short-info img {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+}

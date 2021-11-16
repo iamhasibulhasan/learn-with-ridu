@@ -8,6 +8,7 @@ import AboutUs from './components/AboutUs/AboutUs';
 import Courses from './components/Courses/Courses';
 import Teachers from './components/Teachers/Teachers ';
 import ContactUs from './components/ContactUs/ContactUs';
+import Banner from './components/Banner/Banner';
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
             <NotFound></NotFound>
           </Route>
         </Switch>
+
+        <Banner></Banner>
         <Footer></Footer>
       </BrowserRouter>
     </div>

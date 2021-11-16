@@ -1,0 +1,40 @@
+.sec-banner {
+    background-color: #2d2e32;
+    position: relative;
+    z-index: 2;
+    padding: 30px 0px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.sec-banner::before {
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    background-image: url('http://kodeforest.net/html/uoe/images/counter-bg.png');
+    z-index: -1;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.single-banner {
+    /* border-right: 2px solid #ccc; */
+}
+
+.single-banner .icon {
+    font-size: 55px;
+}
+
+.single-banner h3 {
+    font-size: 34px;
+}
+
+.single-banner h5 {
+    font-size: 15px;
+}

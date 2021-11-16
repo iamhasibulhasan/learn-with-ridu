@@ -1,0 +1,39 @@
+.category {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* justify-items: center; */
+    /* overflow: hidden; */
+}
+
+.category img {
+    width: 100%;
+    transition: filter .5s;
+}
+
+.category img:hover {
+    /* opacity: 0.2; */
+    filter: blur(2px);
+}
+
+.mid-text {
+    position: relative;
+}
+
+.mid-text span {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.mid-text a {
+    font-family: 'Roboto Slab', serif;
+    color: white !important;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.mid-text:hover span {
+    opacity: 1;
+}
