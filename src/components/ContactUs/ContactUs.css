@@ -1,0 +1,32 @@
+.map iframe {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.con-title {
+    color: #2f2f2f;
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+
+.message textarea {
+    height: 274px;
+}
+
+.contact-us {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 70px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.contact-us .little-title {
+    color: #777777;
+    font-weight: 200;
+}
+
+.contact-us .icon {
+    color: #e79800;
+    margin-right: 10px;
+}
