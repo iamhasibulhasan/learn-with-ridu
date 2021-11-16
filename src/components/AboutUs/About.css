@@ -1,0 +1,17 @@
+.about {
+    font-family: 'Roboto Slab', serif;
+    column-gap: 15px;
+}
+
+.about h5 {
+    color: #e79800;
+}
+
+.about h3 {
+    color: #2f2f2f;
+
+}
+
+.about p {
+    font-weight: 300;
+}
