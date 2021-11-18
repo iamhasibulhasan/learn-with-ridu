@@ -1,0 +1,33 @@
+* {
+    font-family: 'Roboto Slab', serif;
+}
+
+.main-div {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 15px;
+}
+
+.main-div h2 {
+    color: #e79800;
+    text-transform: capitalize;
+}
+
+.course-info {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 15px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.c-image,
+.c-info {
+    padding: 10px;
+
+}
+
+.tags-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
+}

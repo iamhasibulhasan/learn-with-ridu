@@ -42,11 +42,17 @@
     position: absolute;
     right: 15px;
     text-align: center;
-    top: 235px;
+    top: 209px;
     width: 48px;
 }
 
-.short-info img {
+.short-info img,
+.rating img {
+    width: 20px;
+    color: #E79800;
+}
+
+.short-info .teacher-img {
     width: 48px;
     height: 48px;
     border-radius: 100%;

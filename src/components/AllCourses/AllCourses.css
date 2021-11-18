@@ -1,0 +1,31 @@
+.courses-card:hover .course-title {
+    color: #e79800;
+}
+
+.courses-card:hover .course-img {
+    opacity: 0.8;
+}
+
+.course-card p {
+    margin: 5px 0 5px 0;
+    font-weight: 300;
+}
+
+.courses-card:hover {
+    box-shadow: rgba(249, 253, 3, 0.659) 0px 5px 15px;
+    border-radius: 5px;
+}
+
+.course-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.course-card .course-img {
+    width: 97%;
+    padding: 20px;
+}
+
+.course-card .title-color {
+    color: #e79800;
+}

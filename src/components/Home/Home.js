@@ -3,14 +3,21 @@ import './Home.css';
 import Slider from '../Slider/Slider';
 import OurCourses from '../OurCourses/OurCourses';
 import Category from '../Category/Category';
-import Banner from '../Banner/Banner';
+import useCourses from './../hooks/useCourses';
 
 
 const Home = () => {
+    const [courses, setCourses] = useCourses();
+
+    // console.log(courses);
+    // courses.length -= 2;
+    courses.splice(3);
     return (
         <div>
             <Slider></Slider>
-            <OurCourses></OurCourses>
+            <OurCourses
+                courses={courses}
+            ></OurCourses>
             <Category></Category>
         </div>
     );

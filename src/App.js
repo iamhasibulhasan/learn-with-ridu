@@ -9,8 +9,10 @@ import Courses from './components/Courses/Courses';
 import Teachers from './components/Teachers/Teachers ';
 import ContactUs from './components/ContactUs/ContactUs';
 import Banner from './components/Banner/Banner';
+import SingleCourse from './components/SingleCourse/SingleCourse';
 
 function App() {
+
   return (
     <div className="App">
       <BrowserRouter>
@@ -19,19 +21,28 @@ function App() {
           <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route exact path="/about-us">
+
+          <Route path="/about-us">
             <AboutUs></AboutUs>
           </Route>
+
           <Route exact path="/courses">
             <Courses></Courses>
           </Route>
-          <Route exact path="/teachers">
+
+          <Route path="/courses/:course_code">
+            <SingleCourse></SingleCourse>
+          </Route>
+
+          <Route path="/teachers">
             <Teachers></Teachers>
           </Route>
-          <Route exact path="/contact-us">
+
+          <Route path="/contact-us">
             <ContactUs></ContactUs>
           </Route>
-          <Route exact path="*">
+
+          <Route path="*">
             <NotFound></NotFound>
           </Route>
         </Switch>

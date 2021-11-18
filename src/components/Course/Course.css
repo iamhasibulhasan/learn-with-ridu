@@ -1,0 +1,9 @@
+.short-info h6 {
+    text-transform: uppercase;
+}
+
+.short-info {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
