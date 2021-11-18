@@ -13,10 +13,10 @@ const Teacher = (props) => {
                 <Card.Body className="teacher-info">
                     <Card.Title>{course_teacher}</Card.Title>
                     <div className="social">
-                        <FaFacebook className="mx-2" color="#e79800" size="20px" />
-                        <FaInstagram className="mx-2" color="#e79800" size="20px" />
-                        <FaPhone className="mx-2" color="#e79800" size="20px" />
-                        <FaEnvelope className="mx-2" color="#e79800" size="20px" />
+                        <FaFacebook className="mx-2" color="#e79800" size="17px" />
+                        <FaInstagram className="mx-2" color="#e79800" size="17px" />
+                        <FaPhone className="mx-2" color="#e79800" size="17px" />
+                        <FaEnvelope className="mx-2" color="#e79800" size="17px" />
                     </div>
                 </Card.Body>
             </Card>

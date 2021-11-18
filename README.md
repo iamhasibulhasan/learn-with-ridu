@@ -12,8 +12,7 @@
 4. In this application you can know about our company at the same time.
 
 ## Some Links
-- [Live Link]()
-- [Repo Link]()
+- [Live Link](https://iamhasibul-learn-with-ridu.netlify.app/)
 
 ## Project Contributor
 [Md. Hasibul Hasan](https://relaxed-goldwasser-08852e.netlify.app/)
